@@ -1,3 +1,7 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
 .bg-carhub {
   background: linear-gradient(
     30deg,
@@ -6,6 +10,6 @@
   );
 }
 .text-carhub {
-  color: Violet !important;
+  color: purple !important;
 }
 
