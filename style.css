@@ -1,0 +1,11 @@
+.bg-carhub {
+  background: linear-gradient(
+    30deg,
+    hsla(280, 84%, 41%, 1) 0%,
+    hsla(218, 97%, 56%, 1) 100%
+  );
+}
+.text-carhub {
+  color: Violet !important;
+}
+
