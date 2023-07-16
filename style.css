@@ -1,16 +1,19 @@
-
-body {
-  font-family: 'Poppins', sans-serif;
-}
-.carhub-bg {
-  background: linear-gradient(
+:root {
+  --text: blue;
+  --bg: linear-gradient(
     30deg,
     hsla(280, 84%, 41%, 1) 0%,
     hsla(218, 97%, 56%, 1) 100%
   );
 }
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.carhub-bg {
+  background: var(--bg);
+}
 .carhub-text {
-  color: blue !important;
+  color: var(--text) !important;
 }
 .carhub-icon {
   font-size: 5rem;
@@ -18,4 +21,12 @@ body {
 .about-bg {
   background-image: url("./images/side.jpg");
   background-size: cover;
+}
+.carhub-hr {
+  height: 0.25rem;
+  background: var(--bg);
+  opacity: 1;
+}
+.swiper {
+  height: 200px;
 }
