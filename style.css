@@ -16,7 +16,7 @@ body {
   color: var(--text) !important;
 }
 .carhub-icon {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .carousel-text {
   top: 5rem; 
@@ -29,6 +29,16 @@ body {
   height: 0.25rem;
   background: var(--bg);
   opacity: 1;
+}
+.carhub-btn {
+  background: white;
+  color: var(--text);
+  border-color: var(--text);
+}
+.carhub-btn:hover {
+  background: var(--bg);
+  color: white;
+  border-image: var(--bg);
 }
 .swiper {
   height: 200px;
