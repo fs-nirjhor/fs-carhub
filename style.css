@@ -18,6 +18,9 @@ body {
 .carhub-icon {
   font-size: 5rem;
 }
+.carousel-text {
+  top: 5rem; 
+}
 .about-bg {
   background-image: url("./images/side.jpg");
   background-size: cover;

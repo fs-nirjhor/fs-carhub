@@ -78,12 +78,8 @@
                 type="text"
                 class="form-control border border-end-0"
                 placeholder="Search Here..."
-                aria-label="search"
-                aria-describedby="basic-addon1"
               />
-              <span
-                class="input-group-text bg-white border border-start-0"
-                id="basic-addon1"
+              <span class="input-group-text bg-white border border-start-0"
                 ><i class="bi bi-search"></i
               ></span>
             </form>
@@ -212,7 +208,7 @@
             height="500rem"
             alt="Bannar"
           />
-          <div class="carousel-caption">
+          <div class="carousel-caption carousel-text text-start">
             <p class="h3">
               <strong class="carhub-text me-2">FS CarHub</strong>always stocking
             </p>
@@ -228,9 +224,9 @@
             height="500rem"
             alt="bannar"
           />
-          <div class="carousel-caption">
+          <div class="carousel-caption carousel-text text-start">
             <p class="h3">
-              <strong class="carhub-text me-1">FS CarHub</strong>always stocking
+              <strong class="carhub-text me-2">FS CarHub</strong>always stocking
             </p>
             <p class="h1">Brand New Car</p>
             <p>We provide latest model of quality cars and no-haggle prices</p>
@@ -239,14 +235,14 @@
         </div>
         <div class="carousel-item" data-bs-interval="3000">
           <img
-            src="./images/bannar5.jpeg"
+            src="./images/bannar4.jpeg"
             class="d-block w-100"
             height="500rem"
             alt="..."
           />
-          <div class="carousel-caption">
+          <div class="carousel-caption carousel-text text-start">
             <p class="h3">
-              <strong class="carhub-text me-1">FS CarHub</strong>always stocking
+              <strong class="carhub-text me-2">FS CarHub</strong>always stocking
             </p>
             <p class="h1">Brand New Car</p>
             <p>We provide latest model of quality cars and no-haggle prices</p>
@@ -274,6 +270,7 @@
       </button>
     </div>
 
+    <!--     container     -->
     <main class="container">
       <!-- Cars -->
       <section
@@ -443,11 +440,15 @@
           width="250rem"
           height="50rem"
         />
-          <div class="text-end">
-          <button class="btn btn-light me-3"><i class="bi bi-chevron-left "></i></button>
-          <button class="btn btn-light"><i class="bi bi-chevron-right"></i></button>
+        <div class="text-end">
+          <button class="btn btn-light me-3">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button class="btn btn-light">
+            <i class="bi bi-chevron-right"></i>
+          </button>
         </div>
-        
+
         <div class="row row-cols-1 row-cols-md-3 gy-2 gx-3 my-2">
           <div class="col card border-0 shadow">
             <div class="card-header bg-transparent row">
@@ -463,7 +464,10 @@
                 <p>Store Manager</p>
               </div>
               <div class="col-2">
-                <i class="bi bi-quote opacity-50 carhub-text p-0" style="font-size: 2rem"></i>
+                <i
+                  class="bi bi-quote opacity-50 carhub-text p-0"
+                  style="font-size: 2rem"
+                ></i>
               </div>
             </div>
             <div class="card-body">
@@ -494,7 +498,10 @@
                 <p>Store Manager</p>
               </div>
               <div class="col-2">
-                <i class="bi bi-quote opacity-50 carhub-text" style="font-size: 2rem"></i>
+                <i
+                  class="bi bi-quote opacity-50 carhub-text"
+                  style="font-size: 2rem"
+                ></i>
               </div>
             </div>
             <div class="card-body">
@@ -525,7 +532,10 @@
                 <p>Store Manager</p>
               </div>
               <div class="col-2">
-                <i class="bi bi-quote opacity-50 carhub-text" style="font-size: 2rem"></i>
+                <i
+                  class="bi bi-quote opacity-50 carhub-text"
+                  style="font-size: 2rem"
+                ></i>
               </div>
             </div>
             <div class="card-body">
@@ -556,10 +566,14 @@
           height="50rem"
         />
         <div class="text-end">
-          <button class="btn btn-light me-3"><i class="bi bi-chevron-left "></i></button>
-          <button class="btn btn-light"><i class="bi bi-chevron-right"></i></button>
+          <button class="btn btn-light me-3">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button class="btn btn-light">
+            <i class="bi bi-chevron-right"></i>
+          </button>
         </div>
-        
+
         <div class="row row-cols-1 row-cols-md-2 g-3 my-2">
           <div class="col">
             <div class="card p-0 h-100">
@@ -613,8 +627,12 @@
           height="50rem"
         />
         <div class="text-end">
-          <button class="btn btn-light me-3 swiper-prev"><i class="bi bi-chevron-left"></i></button>
-          <button class="btn btn-light swiper-next"><i class="bi bi-chevron-right"></i></button>
+          <button class="btn btn-light me-3 swiper-prev">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button class="btn btn-light swiper-next">
+            <i class="bi bi-chevron-right"></i>
+          </button>
         </div>
         <div class="swiper carSwiper my-2">
           <div class="swiper-wrapper">
@@ -668,6 +686,76 @@
       </section>
     </main>
 
+    <footer class="mt-5 pt-5 pb-3 bg-secondary bg-opacity-10">
+      <div class="container">
+        <p class="text-center">Review 10% Discount on First Buy</p>
+        <p class="h2 text-center">Get The Latest Deals</p>
+        <div class="input-group my-3 mx-auto w-75">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter your email address"
+          />
+          <button class="btn btn-dark carhub-bg" type="button">
+            Subscribe
+          </button>
+        </div>
+        <div class="row border-top">
+          <div class="col col-12 col-md-4">
+            <img
+              class="img-fluid d-block px-2 my-3"
+              src="./images/logo.png"
+              alt="logo"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+              facilis rem placeat voluptatem nesciunt autem magnam doloribus
+              eaque dolor sunt!
+            </p>
+            <p>
+              <i class="bi bi-facebook text-primary fs-3 m-1"></i>
+              <i class="bi bi-twitter text-info fs-3 m-1"></i>
+              <i class="bi bi-google text-danger fs-3 m-1"></i>
+              <i class="bi bi-linkedin text-primary fs-3 m-1"></i>
+            </p>
+          </div>
+          <div class="col col-6 col-md-2">
+            <p class="h6 mt-4 carhub-text">Categories</p>
+            <p class="small">Micro</p>
+            <p class="small">Sedan</p>
+            <p class="small">Roadster</p>
+            <p class="small">Hatchback</p>
+            <p class="small">Supercar</p>
+          </div>
+          <div class="col col-6 col-md-2">
+            <p class="h6 mt-4 carhub-text">Services</p>
+            <p class="small">About us</p>
+            <p class="small">Shops</p>
+            <p class="small">Products</p>
+            <p class="small">Pages</p>
+            <p class="small">Blogs</p>
+          </div>
+          <div class="col col-6 col-md-2">
+            <p class="h6 mt-4 carhub-text">Privacy & Terms</p>
+            <p class="small">Payment Policy</p>
+            <p class="small">Privacy Policy</p>
+            <p class="small">Return Policy</p>
+            <p class="small">Shipping Policy</p>
+            <p class="small">Terms & Conditions</p>
+          </div>
+          <div class="col col-6 col-md-2">
+            <p class="h6 mt-4 carhub-text">My Account</p>
+            <p class="small">My Account</p>
+            <p class="small">My Cart</p>
+            <p class="small">Order History</p>
+            <p class="small">My Wishlist</p>
+            <p class="small">My Address</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--     scripts     -->
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
