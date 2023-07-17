@@ -1,25 +1,23 @@
 :root {
-  --text: blue;
-  --bg: linear-gradient(
-    30deg,
-    hsla(280, 84%, 41%, 1) 0%,
-    hsla(218, 97%, 56%, 1) 100%
-  );
+  --gradiant: linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  --color: purple;
 }
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .carhub-bg {
-  background: var(--bg);
+  background: var(--gradiant);
 }
 .carhub-text {
-  color: var(--text) !important;
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .carhub-icon {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .carousel-text {
-  top: 4rem; 
+  top: 0;
 }
 .about-bg {
   background-image: url("./images/side.jpg");
@@ -27,19 +25,23 @@ body {
 }
 .carhub-hr {
   height: 0.25rem;
-  background: var(--bg);
+  background: var(--gradiant);
   opacity: 1;
 }
 .carhub-btn {
   background: white;
-  color: var(--text);
-  border-color: var(--text);
+  color: var(--color);
+  border-color: var(--color);
 }
 .carhub-btn:hover {
-  background: var(--bg);
+  background: var(--gradiant);
   color: white;
-  border-image: var(--bg);
 }
 .swiper {
   height: 200px;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  background: azure;
 }
