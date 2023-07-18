@@ -16,9 +16,6 @@ body {
 .carhub-icon {
   font-size: 3rem;
 }
-.carousel-text {
-  top: 0;
-}
 .about-bg {
   background-image: url("./images/side.jpg");
   background-size: cover;
@@ -45,4 +42,13 @@ body {
   box-shadow: none;
   background: azure;
 }
-
+.vertical-text {
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+}
+.hover-item {
+  visibility: hidden;
+}
+.hover-box:hover .hover-item {
+  visibility: visible;
+}
