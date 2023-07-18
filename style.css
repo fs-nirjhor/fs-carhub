@@ -38,10 +38,12 @@ button.carhub-bg:hover {
   background: white;
   color: var(--color);
   border-color: var(--color);
+  text-decoration: none;
 }
 .carhub-btn:hover {
   background: var(--gradiant);
   color: white;
+  text-decoration: none;
 }
 
 .swiper {
