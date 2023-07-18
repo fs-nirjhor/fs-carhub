@@ -1,18 +1,26 @@
 :root {
-  --gradiant: linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
-  --color: purple;
+  --gradiant: linear-gradient(rgb(12, 212, 241), rgb(126, 4, 212));
+  --gradiant2: linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  --color: rgb(126, 4, 212);
 }
+
 body {
   font-family: "Poppins", sans-serif;
 }
+
 .carhub-bg {
   background: var(--gradiant);
 }
+button.carhub-bg:hover {
+  background: var(--gradiant2);
+}
+
 .carhub-text {
-  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  background: -webkit-linear-gradient(rgb(12, 212, 241), rgb(126, 4, 212));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .carhub-icon {
   font-size: 3rem;
 }
@@ -25,6 +33,7 @@ body {
   background: var(--gradiant);
   opacity: 1;
 }
+
 .carhub-btn {
   background: white;
   color: var(--color);
@@ -34,6 +43,7 @@ body {
   background: var(--gradiant);
   color: white;
 }
+
 .swiper {
   height: 200px;
 }
@@ -41,6 +51,9 @@ body {
   outline: none;
   box-shadow: none;
   background: azure;
+}
+.vertical-icon {
+  writing-mode: vertical-lr;
 }
 .vertical-text {
   writing-mode: vertical-lr;
